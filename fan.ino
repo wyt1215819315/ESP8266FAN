@@ -494,6 +494,7 @@ void initFan() {
     digitalWrite(PW_HEAD,LOW);
     bibi(2,1);
     ledMainFlag = 1;
+    ledHeadFlag = 0;
   }
   FAN_STATUS_SPEED_CHANGE = 0;
   //写入rom来保存当前状态
